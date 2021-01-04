@@ -4,7 +4,7 @@
  
 ## Waterfall
 
-![](2020-12-29-07-32-22.png)
+![](img/2020-12-29-07-32-22.png)
 
 *  A traditional life cycle, slowly being phased out to newer methodologies
 * The lifecycle goes in one direction; down - it can't go back up without completing all he phases again
