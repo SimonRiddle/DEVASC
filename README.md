@@ -1,4 +1,4 @@
-## Please note, this is still under development and is not completed yet##
+## Please note, this is still under development and is not completed yet ##
 
 # Cisco DEVASC Study Notes
 
