@@ -89,7 +89,20 @@ git push origin <branch name>
 
 * Once the branch is pushed, it can then be pushed into master.
 
-``Git
+```Git
 git push origin master
 ```
 
+## Updating local copy of repository
+
+* Pul a new copy down of any updated files which you are missing
+* You can pull from master or also from a particular branch
+* Updates .git directory with latest commit
+
+```Git
+git pull
+```
+
+![](img/2021-01-08-06-09-48.png)
+
+![](img/2021-01-08-06-10-30.png)
