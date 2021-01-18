@@ -28,3 +28,9 @@
 
 * Methods are standalone code blocks, associated with an object, for OO programming
 * Functions are standalone code blocks
+
+#### Methods
+
+* Self contained chunks of code, can be reused throughout the project.
+* Use to divide large projects into smaller parts
+* Modules are packaged as single files
