@@ -2,11 +2,9 @@
 
 # Compare data formats (XML, JSON & YAML)
 
-## Data formats
+## XML
 
-### XML
-
-#### Overview
+### Overview
 
 * XML body - the content of the document, excluding the first line (ignoring any comments)
 * Typical data structure with < > to open and </ > to close
@@ -16,24 +14,24 @@
 * Tree like structure, branches coming off of the root
     * Leaf nodes contain the data itself
 
-#### Special characters
+### Special characters
 
 * Special characters can be used using HTML entity encoding
     * Often not supported by the APIs that you interact against
     * Surround characters in [CDATA] blocks
 
-#### Prologue
+### Prologue
 
 * First line of any XML document
 * Always begins/ends with <? and ?> respectively
 * This is what is read by parsers when your data is being used, it's important to get this right
 
-#### Comments
+### Comments
 
 * Can be placed anywhere in the document
 * This is an example of how to insert a comment (minus the space)s< !-- -->
 
-#### Example
+### Example
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -50,9 +48,9 @@
 </vms>
 ```
 
-### JSON
+## JSON
 
-#### Overview
+### Overview
 
 * JavaScript Object Notation
 * Files are in .json file types
@@ -60,16 +58,16 @@
 * No support for comments in data
 * Whitespace is insignificant in JSON data
 
-#### Data types
+### Data types
 
 * Numbers, strings, Booleans, nulls
 
-#### Maps & lists
+### Maps & lists
 
 * Items in their key/value pairs can have lists, like Python directories
 * The entire value needs to be surrounded in square brackets, value separated by commas
 
-#### Example
+### Example
 
 ```JSON
 {
