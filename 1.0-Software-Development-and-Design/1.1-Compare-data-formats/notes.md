@@ -50,3 +50,36 @@
 </vms>
 ```
 
+### JSON
+
+#### Overview
+
+* JavaScript Object Notation
+* Files are in .json file types
+* Items are put in *key:value* pairs
+* No support for comments in data
+* Whitespace is insignificant in JSON data
+
+#### Data types
+
+* Numbers, strings, Booleans, nulls
+
+#### Maps & lists
+
+* Items in their key/value pairs can have lists, like Python directories
+* The entire value needs to be surrounded in square brackets, value separated by commas
+
+#### Example
+
+```JSON
+{
+  "edit-config":
+  {
+    "default-operation": "merge",
+    "test-operation": "set",
+    "some-integers": [2,3,5,7,9],
+    "a-boolean": true,
+    "more-numbers": [2.25E+2,-1.0735],
+  }
+}
+```
