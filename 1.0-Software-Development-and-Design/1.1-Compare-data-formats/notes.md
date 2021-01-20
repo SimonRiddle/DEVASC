@@ -81,3 +81,54 @@
   }
 }
 ```
+
+## YAML
+
+### Overview
+
+* Stands for "YAML Ain't Markup Language"
+* Superset of JSON, even easier human readability
+* Used by a lot of configuration automation systems, Ansible etc
+* YAML parses JSON but not visa versa
+* Key: value pairs, separated by a colon
+
+### File structure
+
+* Opens with three dashes ---
+* Close with three dots ...
+* Multiple documents in a single file is supported, separate each with three dashes.
+
+### File structure & indentation
+
+* Enforces hierarchy using indentation
+* Best practice is to use two spaces per indent level
+    * This is arbitrary, but keep is consistent!
+
+### Data types
+
+* Numbers, strings, Booleans and nulls supported
+
+### Comments
+
+* Can be inserted anywhere
+* Uses a # to start the comment
+
+### Example
+
+```YAML
+---
+edit-config:
+  a-boolean: true
+  default-operation: merge
+  more-numbers:
+  - 225.0
+  - -1.0735
+  some-integers:
+  - 2
+  - 3
+  - 5
+  - 7
+  - 9
+  test-operation: set
+...
+```
